@@ -7,62 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* ===========utilities classes=========== */
-
-
-/* .container {
-    width: 100%;
-}
-
-.main-container {
-    width: 90%;
-    margin: auto;
-} */
-
-
-/* .flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-justify-only {
-    display: flex;
-    justify-content: center;
-}
-
-.flex-align-only {
-    display: flex;
-    align-items: center;
-} */
-
-
-/* .line-height {
-    line-height: 1.5;
-}
-
-.text-align {
-    text-align: center;
-}
-
-ul li {
-    list-style: none;
-    color: black;
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-} */
-
-.primary-btn {}
-
 .primary-btn a {
     text-decoration: none;
     background-color: blue;
@@ -71,18 +15,6 @@ a {
     border-radius: 0.3rem;
     transition: 0.5s;
 }
-
-.primary-btn a:hover {
-    background-color: white;
-    color: blue;
-}
-
-.secondary-btn {}
-
-.secondary-btn a {}
-
-.secondary-btn a:hover {}
-
 
 /* ==================header================ */
 
@@ -114,6 +46,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(62, 47, 201, 0.404);
 }
 
 #home-header .container .main-container .box .sub-box1 {
@@ -138,6 +71,12 @@ a {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 255, 0.171);
+    padding: 1.5rem 0rem;
+}
+
+#home-header .box2 .sub-box a {
+    text-decoration: none;
+    color: white;
 }
 
 #home-header .box2 .sub-box ul {
@@ -188,7 +127,6 @@ a {
     background-color: black;
     color: white;
 }
-
 
 /* ================second section========== */
 
@@ -250,7 +188,6 @@ a {
     font-weight: bold;
 }
 
-
 /* ================third section=========== */
 
 .third-section {
@@ -295,7 +232,6 @@ a {
     background-color: white;
     color: black;
 }
-
 
 /* ===============fourth section============== */
 
@@ -386,7 +322,6 @@ a {
     color: blue;
 }
 
-
 /* ==============fifth section========== */
 
 .fifth-section {
@@ -453,7 +388,6 @@ a {
 .fifth-section .box2 h3 {
     margin: 0.6rem 0rem;
 }
-
 
 /* ==========sixth section======== */
 
@@ -528,7 +462,6 @@ a {
     color: blue;
 }
 
-
 /* =================seven section============ */
 
 .seven-section {
@@ -602,7 +535,6 @@ a {
     background-color: blue;
     color: white;
 }
-
 
 /* ============eight section================= */
 
@@ -707,7 +639,6 @@ a {
 .eight-section .box2 .sub-box img {
     width: 100%;
 }
-
 
 /* ============nine section/ footer section========== */
 

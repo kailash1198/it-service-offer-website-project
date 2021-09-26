@@ -560,3 +560,74 @@ a {
 }
 
 /* ============eight section================= */
+
+.eight-section {
+    width: 100%;
+}
+
+.eight-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.eight-section .main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.eight-section .box1 {
+    width: 60%;
+    padding: 2rem 0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.eight-section .box1 h1 {
+    padding: 0.7rem 0rem;
+    font-size: 2rem;
+}
+
+.eight-section .box2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eight-section .box2 .sub-box {
+    margin: 0rem 2rem;
+    text-align: center;
+}
+
+.eight-section .box2 .sub-box p {
+    padding: 0.7rem 0rem;
+}
+
+.eight-section .box2 .sub-box input {
+    width: 60%;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+}
+
+.eight-section .box2 .sub-box textarea {
+    width: 60%;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+}
+
+.eight-section .box2 .sub-box .secondary-btn a {
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    background-color: blue;
+    color: white;
+}
+
+.eight-section .box2 .sub-box img {
+    width: 100%;
+}
+
+/* ============nine section/ footer section========== */

@@ -7,7 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* ===========utilities classes=========== */
+
 
 /* .container {
     width: 100%;
@@ -17,6 +19,7 @@
     width: 90%;
     margin: auto;
 } */
+
 
 /* .flex-center {
     display: flex;
@@ -33,6 +36,7 @@
     display: flex;
     align-items: center;
 } */
+
 
 /* .line-height {
     line-height: 1.5;
@@ -78,6 +82,7 @@ a {
 .secondary-btn a {}
 
 .secondary-btn a:hover {}
+
 
 /* ==================header================ */
 
@@ -184,6 +189,7 @@ a {
     color: white;
 }
 
+
 /* ================second section========== */
 
 .second-section {
@@ -244,6 +250,7 @@ a {
     font-weight: bold;
 }
 
+
 /* ================third section=========== */
 
 .third-section {
@@ -288,6 +295,7 @@ a {
     background-color: white;
     color: black;
 }
+
 
 /* ===============fourth section============== */
 
@@ -378,6 +386,7 @@ a {
     color: blue;
 }
 
+
 /* ==============fifth section========== */
 
 .fifth-section {
@@ -444,6 +453,7 @@ a {
 .fifth-section .box2 h3 {
     margin: 0.6rem 0rem;
 }
+
 
 /* ==========sixth section======== */
 
@@ -518,6 +528,7 @@ a {
     color: blue;
 }
 
+
 /* =================seven section============ */
 
 .seven-section {
@@ -591,6 +602,7 @@ a {
     background-color: blue;
     color: white;
 }
+
 
 /* ============eight section================= */
 
@@ -675,16 +687,27 @@ a {
     background-color: #377ef912;
 }
 
+.eight-section .box2 .sub-box .secondary-btn {
+    padding: 2rem;
+}
+
 .eight-section .box2 .sub-box .secondary-btn a {
     text-decoration: none;
     padding: 1rem 2.5rem;
     background-color: blue;
     color: white;
+    transition: 0.4s;
+}
+
+.eight-section .box2 .sub-box .secondary-btn a:hover {
+    background-color: rgb(245, 238, 238);
+    color: black;
 }
 
 .eight-section .box2 .sub-box img {
     width: 100%;
 }
+
 
 /* ============nine section/ footer section========== */
 

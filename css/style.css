@@ -7,9 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* ===========utilities classes=========== */
-
 
 /* .container {
     width: 100%;
@@ -19,7 +17,6 @@
     width: 90%;
     margin: auto;
 } */
-
 
 /* .flex-center {
     display: flex;
@@ -36,7 +33,6 @@
     display: flex;
     align-items: center;
 } */
-
 
 /* .line-height {
     line-height: 1.5;
@@ -82,7 +78,6 @@ a {
 .secondary-btn a {}
 
 .secondary-btn a:hover {}
-
 
 /* ==================header================ */
 
@@ -189,7 +184,6 @@ a {
     color: white;
 }
 
-
 /* ================second section========== */
 
 .second-section {
@@ -250,7 +244,6 @@ a {
     font-weight: bold;
 }
 
-
 /* ================third section=========== */
 
 .third-section {
@@ -296,12 +289,11 @@ a {
     color: black;
 }
 
-
 /* ===============fourth section============== */
 
 .fourth-section {
     width: 100%;
-    background-color: rgba(26, 26, 53, 0.144);
+    background-color: #377ef912;
 }
 
 .fourth-section .container {
@@ -322,12 +314,22 @@ a {
     padding: 1rem;
     transition: 0.5s border;
     background-color: white;
+    transition: 0.4s;
+}
+
+.fourth-section .main-container .box:hover {
+    box-shadow: 0px 1px 40px rgba(128, 128, 128, 0.171);
 }
 
 .fourth-section .main-container .box2 .sub-box {
     margin: 1rem;
     background-color: white;
     padding: 1rem 2.5rem;
+    transition: 0.4s;
+}
+
+.fourth-section .main-container .box2 .sub-box:hover {
+    box-shadow: 0px 1px 40px rgba(128, 128, 128, 0.171);
 }
 
 .fourth-section .main-container .box2 .sub-box i {
@@ -375,7 +377,6 @@ a {
     background-color: white;
     color: blue;
 }
-
 
 /* ==============fifth section========== */
 
@@ -443,7 +444,6 @@ a {
 .fifth-section .box2 h3 {
     margin: 0.6rem 0rem;
 }
-
 
 /* ==========sixth section======== */
 
@@ -517,7 +517,6 @@ a {
 .sixth-section .box1 .blue-color {
     color: blue;
 }
-
 
 /* =================seven section============ */
 
@@ -593,8 +592,22 @@ a {
     color: white;
 }
 
-<<<<<<< HEAD
 /* ============eight section================= */
+
+.eight-section {
+    width: 100%;
+    background-color: #377ef912;
+}
+
+.eight-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.eight-section .main-container {
+    width: 90%;
+    margin: auto;
+}
 
 .eight-section {
     width: 100%;
@@ -606,31 +619,10 @@ a {
 }
 
 .eight-section .main-container {
-=======
-
-/* ============eight section================= */
-
-
-/* ==============nine section/footer=============== */
-
-.nine-section {
-    width: 100%;
-    background-color: rgb(20, 13, 34);
-    color: white;
-}
-
-.nine-section .container {
-    width: 100%;
-    padding: 2.5rem 0rem;
-}
-
-.nine-section .main-container {
->>>>>>> 2c4a47620a6501e12d58c9275024fd647f59aa5f
     width: 90%;
     margin: auto;
 }
 
-<<<<<<< HEAD
 .eight-section .box1 {
     width: 60%;
     padding: 2rem 0rem;
@@ -650,6 +642,12 @@ a {
     align-items: center;
 }
 
+.eight-section .box2 .form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 .eight-section .box2 .sub-box {
     margin: 0rem 2rem;
     text-align: center;
@@ -664,7 +662,8 @@ a {
     margin: 1rem 0rem;
     padding: 0.5rem;
     border: none;
-    border: 1px solid rgba(128, 128, 128, 0.205);
+    border: 1px solid rgba(128, 128, 128, 0.082);
+    background-color: #377ef912;
 }
 
 .eight-section .box2 .sub-box textarea {
@@ -672,7 +671,8 @@ a {
     margin: 1rem 0rem;
     padding: 0.5rem;
     border: none;
-    border: 1px solid rgba(128, 128, 128, 0.205);
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    background-color: #377ef912;
 }
 
 .eight-section .box2 .sub-box .secondary-btn a {
@@ -687,7 +687,23 @@ a {
 }
 
 /* ============nine section/ footer section========== */
-=======
+
+.nine-section {
+    width: 100%;
+    background-color: rgb(32, 32, 61);
+    color: white;
+}
+
+.nine-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.nine-section .main-container {
+    width: 90%;
+    margin: auto;
+}
+
 .nine-section .box1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.185);
     padding: 1rem 0rem;
@@ -730,6 +746,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding: 1rem;
 }
->>>>>>> 2c4a47620a6501e12d58c9275024fd647f59aa5f

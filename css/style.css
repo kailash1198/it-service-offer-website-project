@@ -7,7 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* ===========utilities classes=========== */
+
 
 /* .container {
     width: 100%;
@@ -17,6 +19,7 @@
     width: 90%;
     margin: auto;
 } */
+
 
 /* .flex-center {
     display: flex;
@@ -33,6 +36,7 @@
     display: flex;
     align-items: center;
 } */
+
 
 /* .line-height {
     line-height: 1.5;
@@ -79,12 +83,13 @@ a {
 
 .secondary-btn a:hover {}
 
+
 /* ==================header================ */
 
 #home-header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/header-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -184,6 +189,7 @@ a {
     color: white;
 }
 
+
 /* ================second section========== */
 
 .second-section {
@@ -225,6 +231,10 @@ a {
     margin: 0rem 1rem;
 }
 
+.second-section .box-container .box img {
+    width: 100%;
+}
+
 .second-section .box-container .box h3 {
     padding: 0.5rem 0rem;
 }
@@ -239,6 +249,7 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+
 
 /* ================third section=========== */
 
@@ -285,10 +296,12 @@ a {
     color: black;
 }
 
+
 /* ===============fourth section============== */
 
 .fourth-section {
     width: 100%;
+    background-color: rgba(26, 26, 53, 0.144);
 }
 
 .fourth-section .container {
@@ -308,6 +321,25 @@ a {
     margin: 0rem 2rem;
     padding: 1rem;
     transition: 0.5s border;
+    background-color: white;
+}
+
+.fourth-section .main-container .box2 .sub-box {
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem 2.5rem;
+}
+
+.fourth-section .main-container .box2 .sub-box i {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    color: rgb(64, 175, 129);
+}
+
+.fourth-section .main-container .box2 .sub-box a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
 }
 
 .fourth-section .main-container .box i {
@@ -326,12 +358,8 @@ a {
     font-weight: bold;
 }
 
-.fourth-section .main-container .box:hover {
-    border: 1px solid gray;
-}
-
 .fourth-section .main-container .box .secondary-btn {
-    margin-top: 1rem;
+    margin: 2rem 1rem;
 }
 
 .fourth-section .main-container .box .secondary-btn a {
@@ -347,6 +375,7 @@ a {
     background-color: white;
     color: blue;
 }
+
 
 /* ==============fifth section========== */
 
@@ -414,6 +443,7 @@ a {
 .fifth-section .box2 h3 {
     margin: 0.6rem 0rem;
 }
+
 
 /* ==========sixth section======== */
 
@@ -488,6 +518,7 @@ a {
     color: blue;
 }
 
+
 /* =================seven section============ */
 
 .seven-section {
@@ -521,9 +552,12 @@ a {
 
 .seven-section .box2 .sub-box {
     margin: 0rem 1.5rem;
-    border-left: 1px solid rgba(128, 128, 128, 0.233);
-    border-right: 1px solid rgba(128, 128, 128, 0.247);
+    border: 1px solid rgba(128, 128, 128, 0.336);
     padding: 1rem;
+}
+
+.seven-section .box2 .sub-box:hover {
+    box-shadow: 1px 5px 4px rgba(128, 123, 123, 0.116);
 }
 
 .seven-section .box2 .sub-box h4 {
@@ -531,8 +565,8 @@ a {
 }
 
 .seven-section .box2 .sub-box h2 {
-    padding: 0.6rem 0rem;
-    color: rgba(31, 29, 29, 0.932);
+    padding: 2.5rem 0rem;
+    color: rgb(27, 27, 70);
 }
 
 .seven-section .box2 .sub-box span {
@@ -559,4 +593,69 @@ a {
     color: white;
 }
 
+
 /* ============eight section================= */
+
+
+/* ==============nine section/footer=============== */
+
+.nine-section {
+    width: 100%;
+    background-color: rgb(20, 13, 34);
+    color: white;
+}
+
+.nine-section .container {
+    width: 100%;
+    padding: 2.5rem 0rem;
+}
+
+.nine-section .main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.nine-section .box1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nine-section .box1 .sub-box ul {
+    display: flex;
+}
+
+.nine-section .box1 .sub-box ul li {
+    list-style: none;
+    margin: 0rem 1rem;
+}
+
+.nine-section .box1 .sub-box ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nine-section .box1 .sub-box i {
+    margin: 0rem 0.6rem;
+}
+
+.nine-section .box2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.nine-section .box2 p {
+    padding: 0.5rem 0rem;
+}
+
+.nine-section .box3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}

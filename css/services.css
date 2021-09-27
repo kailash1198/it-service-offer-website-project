@@ -27,11 +27,10 @@
 #home-header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: black;
 }
 
 #home-header .container {
@@ -95,16 +94,16 @@
 
 #home-header .box2 .sub-box ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem 1rem;
 }
 
 #home-header .box3 {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 9rem;
+    margin-top: 3rem;
 }
 
 #home-header .box3 h1 {
@@ -133,3 +132,51 @@
     background-color: black;
     color: white;
 }
+
+
+/* ============second section/services.css================ */
+
+.second-section {
+    width: 100%;
+}
+
+.second-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.second-section .main-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .main-container .box {
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+.second-section .main-container .box p {
+    padding: 0.7rem 0rem;
+}
+
+.second-section .main-container .box1 i {
+    color: blue;
+}
+
+.second-section .main-container .box2 img {
+    width: 100%;
+}
+
+.second-section .main-container .box .secondary-btn {
+    margin: 1rem 0rem;
+}
+
+.second-section .main-container .box .secondary-btn a {
+    text-decoration: none;
+}
+
+
+/* ================third section=============== */

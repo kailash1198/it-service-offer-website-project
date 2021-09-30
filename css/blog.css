@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* ==================header================ */
 
 #home-header {
@@ -128,6 +129,7 @@
     color: white;
 }
 
+
 /* ==============second-section============= */
 
 .second-section {
@@ -147,12 +149,86 @@
 }
 
 .second-section .main-container .box1 {
-    width: 80%;
+    width: 90%;
 }
 
+
+/* ----article post box design start--- */
+
+.second-section .blog-article1-container {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.second-section .blog-article {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.second-section .blog-article img {
+    width: 100%;
+}
+
+.second-section .main-container .box1 span {
+    margin: 3rem 1rem;
+    color: rgb(58, 54, 54);
+    font-size: 0.8rem;
+}
+
+.second-section .main-container .box1 h1 {
+    color: rgb(37, 37, 63);
+    margin: 1rem 0rem;
+}
+
+.second-section .main-container .box1 p {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 0.9rem;
+}
+
+.second-section .main-container .box1 .blog-post-btn {
+    margin: 2.5rem 0rem;
+}
+
+.second-section .main-container .box1 .blog-post-btn a {
+    text-decoration: none;
+    background-color: rgb(55, 55, 156);
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+}
+
+.second-section .main-container .box1 .blog-post-btn a:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+/* ---blog post design end here ---- */
+
 .second-section .main-container .box2 {
-    width: 60%;
+    width: 50%;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-left: 1.5rem;
     border-radius: 0.3rem;
+}
+
+.second-section .main-container .box2 .sub-box {
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+}
+
+.second-section .main-container .box2 .sub-box1 input {
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
+    background-color: rgba(220, 220, 220, 0.411);
+    border: none;
+    width: 100%;
+    border-radius: 0.1rem;
+}
+
+.second-section .main-container .box2 .sub-box1 input:focus {
+    outline: none;
 }

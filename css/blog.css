@@ -7,30 +7,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.primary-btn a {
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border-radius: 0.3rem;
-    transition: 0.5s;
-}
-
-.primary-btn a:hover {
-    background-color: white;
-    color: blue;
-}
-
-
 /* ==================header================ */
 
 #home-header {
     width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    height: 80vh;
     color: black;
+    background-image: url(../images/blog-page-header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
 }
 
 #home-header .container {
@@ -51,7 +37,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(62, 47, 201, 0.404);
 }
 
 #home-header .container .main-container .box .sub-box1 {
@@ -75,13 +60,12 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.171);
     padding: 1.5rem 0rem;
 }
 
 #home-header .box2 .sub-box a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #home-header .box2 .sub-box ul {
@@ -98,12 +82,21 @@
     padding: 1rem 1rem;
 }
 
+#home-header .box2 .primary-btn a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.7rem 1rem;
+    color: white;
+    border-radius: 0.2rem;
+}
+
 #home-header .box3 {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 3rem;
+    text-align: center;
 }
 
 #home-header .box3 h1 {
@@ -113,6 +106,8 @@
 #home-header .box3 p {
     padding: 0.4rem 0rem;
     line-height: 1.5;
+    width: 60%;
+    margin: auto;
 }
 
 #home-header .box3 .secondary-btn {
@@ -131,4 +126,33 @@
 #home-header .box3 .secondary-btn a:hover {
     background-color: black;
     color: white;
+}
+
+/* ==============second-section============= */
+
+.second-section {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.second-section .container {
+    width: 90%;
+    margin: auto;
+}
+
+.second-section .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section .main-container .box1 {
+    width: 80%;
+}
+
+.second-section .main-container .box2 {
+    width: 60%;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-left: 1.5rem;
+    border-radius: 0.3rem;
 }

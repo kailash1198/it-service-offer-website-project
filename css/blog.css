@@ -208,6 +208,7 @@
 
 .second-section .main-container .box2 {
     width: 50%;
+    height: 100%;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-left: 1.5rem;
     border-radius: 0.3rem;
@@ -232,3 +233,175 @@
 .second-section .main-container .box2 .sub-box1 input:focus {
     outline: none;
 }
+
+.second-section .main-container .box2 .sub-box2 .sub-mini-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0rem;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 0.9rem;
+}
+
+.second-section .main-container .box2 .sub-box2 .sub-mini-box p:hover {
+    color: rgb(50, 50, 219);
+}
+
+.second-section .main-container .box2 .sub-box2 .sub-mini-box:hover {
+    background-color: rgba(128, 128, 128, 0.11);
+    color: black;
+}
+
+.second-section .main-container .box2 .sub-box3 .sub-mini-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.second-section .main-container .box2 .sub-box3 .sub-mini-box img {
+    width: 30%;
+}
+
+.second-section .main-container .box2 .sub-box3 .sub-mini-box p {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.second-section .main-container .box2 .sub-box3 .sub-mini-box p:hover {
+    color: rgb(39, 29, 131);
+}
+
+.second-section .main-container .box2 .sub-box4 .sub-mini-box {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section .main-container .box2 .sub-box4 .sub-mini-box p {
+    background-color: rgba(128, 128, 128, 0.089);
+    padding: 0.5rem;
+    color: rgba(48, 48, 201, 0.89);
+    border-radius: 100px;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+
+.second-section .main-container .box2 .sub-box4 .sub-mini-box i {
+    margin: 0rem 0.3rem;
+}
+
+.second-section .main-container .box2 .sub-box4 .sub-mini-box p:hover {
+    background-color: blue;
+    color: white;
+}
+
+.second-section .main-container .box2 .sub-box5 .sub-mini-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+}
+
+.second-section .main-container .box2 .sub-box5 .sub-mini-box i {
+    color: gray;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    padding: 0.8rem 0.9rem;
+    border-radius: 50%;
+    margin: 0rem 0.5rem;
+    transition: 0.4s;
+}
+
+.second-section .main-container .box2 .sub-box5 .sub-mini-box i:hover {
+    color: white;
+    background-color: rgba(56, 56, 218, 0.87);
+}
+
+.second-section .main-container .box2 .sub-box6 {
+    padding: 2rem 0rem;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box {
+    background-image: url(../images/blog-page-right-sidebar-subscribe-bg-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 0rem;
+    color: white;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content p {
+    padding: 0.5rem 0rem;
+    font-size: 0.8rem;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn {
+    margin-top: 2rem;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(69, 69, 219);
+    padding: 0.7rem 1.4rem;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a:hover {
+    background-color: black;
+}
+
+
+/* ====================third section================== */
+
+.third-section {
+    width: 100%;
+}
+
+.third-section .container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+.third-section .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .main-container p {
+    padding: 1rem 1.5rem;
+    margin: 0rem 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.third-section .main-container p:hover {
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
+.third-section .main-container .active {
+    background-color: blue;
+    color: white;
+}
+
+.third-section .main-container .active:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* ===================fourth section=============== */

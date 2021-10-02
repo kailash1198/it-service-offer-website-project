@@ -1,407 +1,529 @@
-/* ==========css reset============= */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-/* ==================header================ */
-
-#home-header {
-    width: 100vw;
-    height: 80vh;
-    color: black;
-    background-image: url(../images/blog-page-header-bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom;
-}
-
-#home-header .container {
-    width: 100%;
-}
-
-#home-header .container .main-container {
-    width: 90%;
-    margin: auto;
-}
-
-#home-header .container .main-container .box {
-    width: 100%;
-}
-
-#home-header .container .main-container .box1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#home-header .container .main-container .box .sub-box1 {
-    width: 100%;
-    display: flex;
-}
-
-#home-header .container .main-container .box .sub-box1 .sub-mini-box p {
-    padding: 1rem 1rem;
-}
-
-#home-header .sub-box2 {
-    display: flex;
-}
-
-#home-header .sub-box2 .sub-mini-box {
-    margin: 0.5rem;
-}
-
-#home-header .box2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 0rem;
-}
-
-#home-header .box2 .sub-box a {
-    text-decoration: none;
-    color: black;
-}
-
-#home-header .box2 .sub-box ul {
-    display: flex;
-}
-
-#home-header .box2 .sub-box ul li {
-    list-style: none;
-}
-
-#home-header .box2 .sub-box ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 1rem 1rem;
-}
-
-#home-header .box2 .primary-btn a {
-    text-decoration: none;
-    background-color: blue;
-    padding: 0.7rem 1rem;
-    color: white;
-    border-radius: 0.2rem;
-}
-
-#home-header .box3 {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 3rem;
-    text-align: center;
-}
-
-#home-header .box3 h1 {
-    padding: 1rem 0rem;
-}
-
-#home-header .box3 p {
-    padding: 0.4rem 0rem;
-    line-height: 1.5;
-    width: 60%;
-    margin: auto;
-}
-
-#home-header .box3 .secondary-btn {
-    margin-top: 2rem;
-}
-
-#home-header .box3 .secondary-btn a {
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 0.3rem;
-    transition: 0.5s;
-}
-
-#home-header .box3 .secondary-btn a:hover {
-    background-color: black;
-    color: white;
-}
-
-
-/* ==============second-section============= */
-
-.second-section {
-    width: 100%;
-    padding: 3rem 0rem;
-}
-
-.second-section .container {
-    width: 90%;
-    margin: auto;
-}
-
-.second-section .main-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.second-section .main-container .box1 {
-    width: 90%;
-}
-
-
-/* ----article post box design start--- */
-
-.second-section .blog-article1-container {
-    width: 100%;
-    padding: 1rem 0rem;
-}
-
-.second-section .blog-article {
-    width: 100%;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
-}
-
-.second-section .blog-article img {
-    width: 100%;
-}
-
-.second-section .main-container .box1 span {
-    margin: 3rem 1rem;
-    color: rgb(58, 54, 54);
-    font-size: 0.8rem;
-}
-
-.second-section .main-container .box1 h1 {
-    color: rgb(37, 37, 63);
-    margin: 1rem 0rem;
-}
-
-.second-section .main-container .box1 p {
-    color: rgba(0, 0, 0, 0.733);
-    font-size: 0.9rem;
-}
-
-.second-section .main-container .box1 .blog-post-btn {
-    margin: 2.5rem 0rem;
-}
-
-.second-section .main-container .box1 .blog-post-btn a {
-    text-decoration: none;
-    background-color: rgb(55, 55, 156);
-    padding: 1rem 2rem;
-    color: white;
-    border-radius: 0.2rem;
-    transition: 0.5s;
-}
-
-.second-section .main-container .box1 .blog-post-btn a:hover {
-    background-color: gray;
-    color: white;
-}
-
-
-/* ---blog post design end here ---- */
-
-.second-section .main-container .box2 {
-    width: 50%;
-    height: 100%;
-    border: 1px solid rgba(128, 128, 128, 0.199);
-    margin-left: 1.5rem;
-    border-radius: 0.3rem;
-}
-
-.second-section .main-container .box2 .sub-box {
-    width: 80%;
-    margin: auto;
-    padding: 3rem 0rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
-}
-
-.second-section .main-container .box2 .sub-box1 input {
-    padding: 0.5rem 0.5rem;
-    margin-top: 1rem;
-    background-color: rgba(220, 220, 220, 0.411);
-    border: none;
-    width: 100%;
-    border-radius: 0.1rem;
-}
-
-.second-section .main-container .box2 .sub-box1 input:focus {
-    outline: none;
-}
-
-.second-section .main-container .box2 .sub-box2 .sub-mini-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.6rem 0rem;
-    color: rgba(0, 0, 0, 0.699);
-    font-size: 0.9rem;
-}
-
-.second-section .main-container .box2 .sub-box2 .sub-mini-box p:hover {
-    color: rgb(50, 50, 219);
-}
-
-.second-section .main-container .box2 .sub-box2 .sub-mini-box:hover {
-    background-color: rgba(128, 128, 128, 0.11);
-    color: black;
-}
-
-.second-section .main-container .box2 .sub-box3 .sub-mini-box {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0rem;
-}
-
-.second-section .main-container .box2 .sub-box3 .sub-mini-box img {
-    width: 30%;
-}
-
-.second-section .main-container .box2 .sub-box3 .sub-mini-box p {
-    margin-left: 1rem;
-    font-size: 0.8rem;
-    color: rgba(0, 0, 0, 0.699);
-}
-
-.second-section .main-container .box2 .sub-box3 .sub-mini-box p:hover {
-    color: rgb(39, 29, 131);
-}
-
-.second-section .main-container .box2 .sub-box4 .sub-mini-box {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.second-section .main-container .box2 .sub-box4 .sub-mini-box p {
-    background-color: rgba(128, 128, 128, 0.089);
-    padding: 0.5rem;
-    color: rgba(48, 48, 201, 0.89);
-    border-radius: 100px;
-    margin: 0.5rem;
-    font-size: 0.8rem;
-    transition: 0.5s;
-}
-
-.second-section .main-container .box2 .sub-box4 .sub-mini-box i {
-    margin: 0rem 0.3rem;
-}
-
-.second-section .main-container .box2 .sub-box4 .sub-mini-box p:hover {
-    background-color: blue;
-    color: white;
-}
-
-.second-section .main-container .box2 .sub-box5 .sub-mini-box {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem 0rem;
-}
-
-.second-section .main-container .box2 .sub-box5 .sub-mini-box i {
-    color: gray;
-    border: 1px solid rgba(128, 128, 128, 0.219);
-    padding: 0.8rem 0.9rem;
-    border-radius: 50%;
-    margin: 0rem 0.5rem;
-    transition: 0.4s;
-}
-
-.second-section .main-container .box2 .sub-box5 .sub-mini-box i:hover {
-    color: white;
-    background-color: rgba(56, 56, 218, 0.87);
-}
-
-.second-section .main-container .box2 .sub-box6 {
-    padding: 2rem 0rem;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box {
-    background-image: url(../images/blog-page-right-sidebar-subscribe-bg-image.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 3rem 0rem;
-    color: white;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content p {
-    padding: 0.5rem 0rem;
-    font-size: 0.8rem;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn {
-    margin-top: 2rem;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(69, 69, 219);
-    padding: 0.7rem 1.4rem;
-    border-radius: 4px;
-    transition: 0.4s;
-}
-
-.second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a:hover {
-    background-color: black;
-}
-
-
-/* ====================third section================== */
-
-.third-section {
-    width: 100%;
-}
-
-.third-section .container {
-    width: 90%;
-    margin: auto;
-    padding: 3rem 0rem;
-}
-
-.third-section .main-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.third-section .main-container p {
-    padding: 1rem 1.5rem;
-    margin: 0rem 1rem;
-    border: 1px solid rgba(128, 128, 128, 0.281);
-    transition: 0.3s;
-    border-radius: 3px;
-}
-
-.third-section .main-container p:hover {
-    background-color: rgba(128, 128, 128, 0.075);
-}
-
-.third-section .main-container .active {
-    background-color: blue;
-    color: white;
-}
-
-.third-section .main-container .active:hover {
-    background-color: blue;
-    color: white;
-}
-
-
-/* ===================fourth section=============== */
+        /* ==========css reset============= */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* ==================header================ */
+        
+        #home-header {
+            width: 100vw;
+            height: 80vh;
+            color: black;
+            background-image: url(../images/blog-page-header-bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center bottom;
+        }
+        
+        #home-header .container {
+            width: 100%;
+        }
+        
+        #home-header .container .main-container {
+            width: 90%;
+            margin: auto;
+        }
+        
+        #home-header .container .main-container .box {
+            width: 100%;
+        }
+        
+        #home-header .container .main-container .box1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #home-header .container .main-container .box .sub-box1 {
+            width: 100%;
+            display: flex;
+        }
+        
+        #home-header .container .main-container .box .sub-box1 .sub-mini-box p {
+            padding: 1rem 1rem;
+        }
+        
+        #home-header .sub-box2 {
+            display: flex;
+        }
+        
+        #home-header .sub-box2 .sub-mini-box {
+            margin: 0.5rem;
+        }
+        
+        #home-header .box2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 0rem;
+        }
+        
+        #home-header .box2 .sub-box a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        #home-header .box2 .sub-box ul {
+            display: flex;
+        }
+        
+        #home-header .box2 .sub-box ul li {
+            list-style: none;
+        }
+        
+        #home-header .box2 .sub-box ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 1rem 1rem;
+        }
+        
+        #home-header .box2 .primary-btn a {
+            text-decoration: none;
+            background-color: blue;
+            padding: 0.7rem 1rem;
+            color: white;
+            border-radius: 0.2rem;
+        }
+        
+        #home-header .box3 {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        
+        #home-header .box3 h1 {
+            padding: 1rem 0rem;
+        }
+        
+        #home-header .box3 p {
+            padding: 0.4rem 0rem;
+            line-height: 1.5;
+            width: 60%;
+            margin: auto;
+        }
+        
+        #home-header .box3 .secondary-btn {
+            margin-top: 2rem;
+        }
+        
+        #home-header .box3 .secondary-btn a {
+            text-decoration: none;
+            background-color: blue;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 0.3rem;
+            transition: 0.5s;
+        }
+        
+        #home-header .box3 .secondary-btn a:hover {
+            background-color: black;
+            color: white;
+        }
+        /* ==============second-section============= */
+        
+        .second-section {
+            width: 100%;
+            padding: 3rem 0rem;
+        }
+        
+        .second-section .container {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .second-section .main-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .second-section .main-container .box1 {
+            width: 90%;
+        }
+        /* ----article post box design start--- */
+        
+        .second-section .blog-article1-container {
+            width: 100%;
+            padding: 1rem 0rem;
+        }
+        
+        .second-section .blog-article {
+            width: 100%;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+        }
+        
+        .second-section .blog-article img {
+            width: 100%;
+        }
+        
+        .second-section .main-container .box1 span {
+            margin: 3rem 1rem;
+            color: rgb(58, 54, 54);
+            font-size: 0.8rem;
+        }
+        
+        .second-section .main-container .box1 h1 {
+            color: rgb(37, 37, 63);
+            margin: 1rem 0rem;
+        }
+        
+        .second-section .main-container .box1 p {
+            color: rgba(0, 0, 0, 0.733);
+            font-size: 0.9rem;
+        }
+        
+        .second-section .main-container .box1 .blog-post-btn {
+            margin: 2.5rem 0rem;
+        }
+        
+        .second-section .main-container .box1 .blog-post-btn a {
+            text-decoration: none;
+            background-color: rgb(55, 55, 156);
+            padding: 1rem 2rem;
+            color: white;
+            border-radius: 0.2rem;
+            transition: 0.5s;
+        }
+        
+        .second-section .main-container .box1 .blog-post-btn a:hover {
+            background-color: gray;
+            color: white;
+        }
+        /* ---blog post design end here ---- */
+        
+        .second-section .main-container .box2 {
+            width: 50%;
+            height: 100%;
+            border: 1px solid rgba(128, 128, 128, 0.199);
+            margin-left: 1.5rem;
+            border-radius: 0.3rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box {
+            width: 80%;
+            margin: auto;
+            padding: 3rem 0rem;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+        }
+        
+        .second-section .main-container .box2 .sub-box1 input {
+            padding: 0.5rem 0.5rem;
+            margin-top: 1rem;
+            background-color: rgba(220, 220, 220, 0.411);
+            border: none;
+            width: 100%;
+            border-radius: 0.1rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box1 input:focus {
+            outline: none;
+        }
+        
+        .second-section .main-container .box2 .sub-box2 .sub-mini-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.6rem 0rem;
+            color: rgba(0, 0, 0, 0.699);
+            font-size: 0.9rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box2 .sub-mini-box p:hover {
+            color: rgb(50, 50, 219);
+        }
+        
+        .second-section .main-container .box2 .sub-box2 .sub-mini-box:hover {
+            background-color: rgba(128, 128, 128, 0.11);
+            color: black;
+        }
+        
+        .second-section .main-container .box2 .sub-box3 .sub-mini-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box3 .sub-mini-box img {
+            width: 30%;
+        }
+        
+        .second-section .main-container .box2 .sub-box3 .sub-mini-box p {
+            margin-left: 1rem;
+            font-size: 0.8rem;
+            color: rgba(0, 0, 0, 0.699);
+        }
+        
+        .second-section .main-container .box2 .sub-box3 .sub-mini-box p:hover {
+            color: rgb(39, 29, 131);
+        }
+        
+        .second-section .main-container .box2 .sub-box4 .sub-mini-box {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .second-section .main-container .box2 .sub-box4 .sub-mini-box p {
+            background-color: rgba(128, 128, 128, 0.089);
+            padding: 0.5rem;
+            color: rgba(48, 48, 201, 0.89);
+            border-radius: 100px;
+            margin: 0.5rem;
+            font-size: 0.8rem;
+            transition: 0.5s;
+        }
+        
+        .second-section .main-container .box2 .sub-box4 .sub-mini-box i {
+            margin: 0rem 0.3rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box4 .sub-mini-box p:hover {
+            background-color: blue;
+            color: white;
+        }
+        
+        .second-section .main-container .box2 .sub-box5 .sub-mini-box {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem 0rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box5 .sub-mini-box i {
+            color: gray;
+            border: 1px solid rgba(128, 128, 128, 0.219);
+            padding: 0.8rem 0.9rem;
+            border-radius: 50%;
+            margin: 0rem 0.5rem;
+            transition: 0.4s;
+        }
+        
+        .second-section .main-container .box2 .sub-box5 .sub-mini-box i:hover {
+            color: white;
+            background-color: rgba(56, 56, 218, 0.87);
+        }
+        
+        .second-section .main-container .box2 .sub-box6 {
+            padding: 2rem 0rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box {
+            background-image: url(../images/blog-page-right-sidebar-subscribe-bg-image.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 3rem 0rem;
+            color: white;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content p {
+            padding: 0.5rem 0rem;
+            font-size: 0.8rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn {
+            margin-top: 2rem;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(69, 69, 219);
+            padding: 0.7rem 1.4rem;
+            border-radius: 4px;
+            transition: 0.4s;
+        }
+        
+        .second-section .main-container .box2 .sub-box6 .sub-mini-box .sub-mini-box-content .secondary-btn a:hover {
+            background-color: black;
+        }
+        /* ====================third section================== */
+        
+        .third-section {
+            width: 100%;
+        }
+        
+        .third-section .container {
+            width: 90%;
+            margin: auto;
+            padding: 3rem 0rem;
+        }
+        
+        .third-section .main-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .third-section .main-container p {
+            padding: 1rem 1.5rem;
+            margin: 0rem 1rem;
+            border: 1px solid rgba(128, 128, 128, 0.281);
+            transition: 0.3s;
+            border-radius: 3px;
+        }
+        
+        .third-section .main-container p:hover {
+            background-color: rgba(128, 128, 128, 0.075);
+        }
+        
+        .third-section .main-container .active {
+            background-color: blue;
+            color: white;
+        }
+        
+        .third-section .main-container .active:hover {
+            background-color: blue;
+            color: white;
+        }
+        /* ===================fourth section=============== */
+        
+        .fourth-section {
+            width: 100%;
+        }
+        
+        .fourth-section .container {
+            width: 90%;
+            margin: auto;
+            padding: 1rem 0rem;
+            background-color: #777af212;
+        }
+        
+        .fourth-section .main-container {
+            padding: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .fourth-section .main-container .box {
+            width: 100%;
+        }
+        
+        .fourth-section .main-container .box img {
+            width: 100%;
+        }
+        
+        .fourth-section .main-container .box h1 {
+            font-size: 1.4rem;
+            padding: 0.5re 0rem;
+        }
+        
+        .fourth-section .main-container .box p {
+            padding: 0.5rem 0rem;
+            color: rgb(78, 74, 74);
+            line-height: 1.5;
+        }
+        
+        .fourth-section .main-container .box .subscribe-box {
+            display: flex;
+            margin: 1rem 0rem;
+            align-items: center;
+        }
+        
+        .fourth-section .main-container .box .subscribe-box input {
+            padding: 0.6rem;
+            margin-right: 2rem;
+        }
+        
+        .fourth-section .main-container .box .subscribe-box .secondary-btn a {
+            text-decoration: none;
+            color: white;
+            background-color: blue;
+            padding: 0.7rem 1rem;
+            transition: 0.3s;
+            border-radius: 3px;
+        }
+        
+        .fourth-section .main-container .box .subscribe-box .secondary-btn a:hover {
+            background-color: black;
+        }
+        
+        .fourth-section .main-container .box .checkbox {
+            display: flex;
+            align-items: center;
+        }
+        
+        .fourth-section .main-container .box .checkbox p {
+            margin-left: 1rem;
+            font-size: 0.7rem;
+        }
+        /* =================footer================= */
+        
+        .nine-section {
+            width: 100%;
+            background-color: rgb(32, 32, 61);
+            color: white;
+            ;
+        }
+        
+        .nine-section .container {
+            width: 100%;
+            padding: 3rem 0rem;
+        }
+        
+        .nine-section .main-container {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .nine-section .box1 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+            padding: 1rem 0rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .nine-section .box1 .sub-box ul {
+            display: flex;
+        }
+        
+        .nine-section .box1 .sub-box ul li {
+            list-style: none;
+            margin: 0rem 1rem;
+        }
+        
+        .nine-section .box1 .sub-box ul a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .nine-section .box1 .sub-box i {
+            margin: 0rem 0.6rem;
+        }
+        
+        .nine-section .box2 {
+            display: flex;
+            justify-content: space-around;
+            padding: 3rem 0rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+        }
+        
+        .nine-section .box2 p {
+            padding: 0.5rem 0rem;
+        }
+        
+        .nine-section .box3 {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }

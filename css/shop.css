@@ -5,9 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
-  /* ==================header================ */
-        
-  #home-header {
+
+/* ==================header================ */
+
+#home-header {
     width: 100vw;
     height: 80vh;
     color: black;
@@ -15,6 +16,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
+    background-color: rgba(128, 128, 128, 0.089);
 }
 
 #home-header .container {
@@ -124,4 +126,33 @@
 #home-header .box3 .secondary-btn a:hover {
     background-color: black;
     color: white;
+}
+
+
+/* ==================second section===================== */
+
+.second-section {
+    width: 100%;
+}
+
+.second-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.second-section .main-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.second-section .main-container .box1 {
+    width: 100%;
+    margin: auto;
+}
+
+.second-section .main-container .box2 {
+    width: 50%;
+    margin: auto;
 }

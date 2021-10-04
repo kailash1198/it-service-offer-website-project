@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  /* ==================header================ */
+        
+  #home-header {
+    width: 100vw;
+    height: 80vh;
+    color: black;
+    background-image: url(../images/blog-page-header-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+#home-header .container {
+    width: 100%;
+}
+
+#home-header .container .main-container {
+    width: 90%;
+    margin: auto;
+}
+
+#home-header .container .main-container .box {
+    width: 100%;
+}
+
+#home-header .container .main-container .box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-header .container .main-container .box .sub-box1 {
+    width: 100%;
+    display: flex;
+}
+
+#home-header .container .main-container .box .sub-box1 .sub-mini-box p {
+    padding: 1rem 1rem;
+}
+
+#home-header .sub-box2 {
+    display: flex;
+}
+
+#home-header .sub-box2 .sub-mini-box {
+    margin: 0.5rem;
+}
+
+#home-header .box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+
+#home-header .box2 .sub-box a {
+    text-decoration: none;
+    color: black;
+}
+
+#home-header .box2 .sub-box ul {
+    display: flex;
+}
+
+#home-header .box2 .sub-box ul li {
+    list-style: none;
+}
+
+#home-header .box2 .sub-box ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1rem;
+}
+
+#home-header .box2 .primary-btn a {
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.7rem 1rem;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+#home-header .box3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#home-header .box3 h1 {
+    padding: 1rem 0rem;
+}
+
+#home-header .box3 p {
+    padding: 0.4rem 0rem;
+    line-height: 1.5;
+    width: 60%;
+    margin: auto;
+}
+
+#home-header .box3 .secondary-btn {
+    margin-top: 2rem;
+}
+
+#home-header .box3 .secondary-btn a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+}
+
+#home-header .box3 .secondary-btn a:hover {
+    background-color: black;
+    color: white;
+}

@@ -21,7 +21,7 @@
 #home-header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../images/header-bg.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(224, 162, 219, 0.329)), url(../images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* ==================header================ */
 
 #home-header {
@@ -128,7 +127,6 @@
     color: white;
 }
 
-
 /* ==================second section===================== */
 
 .second-section {
@@ -147,12 +145,29 @@
     justify-content: center;
 }
 
+.second-section .main-container .box {
+    margin: 0rem 2rem;
+}
+
 .second-section .main-container .box1 {
-    width: 100%;
+    width: 70%;
     margin: auto;
 }
 
 .second-section .main-container .box2 {
-    width: 50%;
+    width: 20%;
     margin: auto;
+}
+
+.second-section .main-container .box1 .box1-container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+    border-top: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.second-section .main-container .box1 .box1-container1 .box1-sub-box2 p {
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    padding: 0.5rem 2rem;
 }

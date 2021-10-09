@@ -135,39 +135,151 @@
 
 .second-section .container {
     width: 100%;
-    padding: 3rem 0rem;
 }
 
 .second-section .main-container {
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: center;
-}
-
-.second-section .main-container .box {
-    margin: 0rem 2rem;
+    justify-content: space-between;
+    padding: 3rem 0rem;
 }
 
 .second-section .main-container .box1 {
-    width: 70%;
-    margin: auto;
+    width: 100%;
 }
 
-.second-section .main-container .box2 {
-    width: 20%;
-    margin: auto;
-}
-
-.second-section .main-container .box1 .box1-container1 {
+.second-section .main-container .box1 .sub-box1 {
+    width: 100%;
+    padding: 1rem 0rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
-    border-top: 1px solid rgba(128, 128, 128, 0.178);
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
-.second-section .main-container .box1 .box1-container1 .box1-sub-box2 p {
-    border: 1px solid rgba(128, 128, 128, 0.192);
-    padding: 0.5rem 2rem;
+.second-section .main-container .box1 .sub-box2 {
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .main-container .box1 .sub-box2 .product-card {
+    width: 100%;
+    margin: 1rem;
+}
+
+.second-section .main-container .box1 .sub-box2 .product-card .product-card-img {
+    width: 100%;
+}
+
+.second-section .main-container .box1 .sub-box2 .product-card .product-card-img img {
+    width: 100%;
+}
+
+/* ===================third section================== */
+
+.third-section {
+    width: 100%;
+}
+
+.third-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.third-section .main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.third-section .main-container .card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .main-container .card p {
+    margin: 0rem 2rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+
+.third-section .main-container .card .active {
+    background-color: blue;
+    color: white;
+}
+
+.third-section .main-container .card p:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* ============ footer section========== */
+
+.nine-section {
+    width: 100%;
+    background-color: rgb(32, 32, 61);
+    color: white;
+}
+
+.nine-section .container {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+.nine-section .main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.nine-section .box1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.185);
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nine-section .box1 .sub-box ul {
+    display: flex;
+}
+
+.nine-section .box1 .sub-box ul li {
+    list-style: none;
+    margin: 0rem 1rem;
+}
+
+.nine-section .box1 .sub-box ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nine-section .box1 .sub-box i {
+    margin: 0rem 0.6rem;
+}
+
+.nine-section .box2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.nine-section .box2 p {
+    padding: 0.5rem 0rem;
+}
+
+.nine-section .box3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }

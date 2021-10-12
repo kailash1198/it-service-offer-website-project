@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .primary-btn a {
     text-decoration: none;
     background-color: blue;
@@ -46,12 +50,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(62, 47, 201, 0.404);
+    /* border-bottom: 1px solid rgba(62, 47, 201, 0.404); */
 }
 
 #home-header .container .main-container .box .sub-box1 {
     width: 100%;
     display: flex;
+}
+
+#home-header .container .main-container .box1 .sub-box2 a {
+    color: white;
 }
 
 #home-header .container .main-container .box .sub-box1 .sub-mini-box p {
@@ -70,8 +78,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.171);
-    padding: 1.5rem 0rem;
+    /* border-bottom: 1px solid rgba(0, 0, 255, 0.171); */
+    /* padding: 1.5rem 0rem; */
 }
 
 #home-header .box2 .sub-box a {
@@ -175,12 +183,14 @@
 
 .second-section .box-container .box h3 {
     padding: 0.5rem 0rem;
+    color: rgba(33, 33, 131, 0.905);
 }
 
 .second-section .box-container .box p {
     padding: 0.5rem 0rem;
     color: gray;
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 .second-section .box-container .box a {
@@ -679,6 +689,10 @@
     color: white;
 }
 
+.nine-section .box1 .sub-box a {
+    color: white;
+}
+
 .nine-section .box1 .sub-box i {
     margin: 0rem 0.6rem;
 }
@@ -697,8 +711,14 @@
 
 .nine-section .box3 {
     text-align: center;
+    align-items: center;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    flex-direction: column;
+}
+
+.nine-section .box3 a {
+    color: white;
 }

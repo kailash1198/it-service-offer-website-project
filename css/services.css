@@ -21,6 +21,7 @@
     color: blue;
 }
 
+
 /* ==================header================ */
 
 #home-header {
@@ -80,7 +81,7 @@
 
 #home-header .box2 .sub-box a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #home-header .box2 .sub-box ul {
@@ -120,7 +121,7 @@
 
 #home-header .box3 .secondary-btn a {
     text-decoration: none;
-    background-color: blue;
+    background-color: rgba(48, 48, 194, 0.788);
     color: white;
     padding: 1rem 1.5rem;
     border-radius: 0.3rem;
@@ -131,6 +132,11 @@
     background-color: black;
     color: white;
 }
+
+#home-header .sub-box-btn a {
+    color: white;
+}
+
 
 /* ============second section/services.css================ */
 
@@ -176,6 +182,7 @@
     text-decoration: none;
 }
 
+
 /* ================third section=============== */
 
 .third-section {
@@ -220,6 +227,7 @@
     text-decoration: none;
 }
 
+
 /* ===========fourth section============== */
 
 .fourth-section {
@@ -262,6 +270,7 @@
 .fourth-section .main-container .box .secondary-btn a {
     text-decoration: none;
 }
+
 
 /* ==========fifth section========== */
 
@@ -307,6 +316,7 @@
     text-decoration: none;
 }
 
+
 /* =================sixth section============= */
 
 .sixth-section {
@@ -350,6 +360,7 @@
     color: white;
 }
 
+
 /* ==============seven section========= */
 
 .seven-section {
@@ -380,6 +391,7 @@
     padding-top: 1rem;
     color: black;
 }
+
 
 /* ==============eight section============= */
 
@@ -425,6 +437,7 @@
     border-radius: 4px;
 }
 
+
 /* ================nine section/footer============= */
 
 .nine-section {
@@ -467,6 +480,11 @@
 
 .nine-section .box1 .sub-box i {
     margin: 0rem 0.6rem;
+}
+
+.nine-section .box1 .sub-box a {
+    text-decoration: none;
+    color: white;
 }
 
 .nine-section .box2 {
